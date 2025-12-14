@@ -1,0 +1,24 @@
+.Container-Réseauxsociaux-1 {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    gap: 20px;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+
+    button{
+    width: 20%;
+    }
+}
+
+@media screen and (max-width: 768px){
+.Container-Réseauxsociaux-1{
+width: 90%;
+}
+}
+
+
+

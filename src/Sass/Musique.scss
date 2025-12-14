@@ -1,0 +1,60 @@
+.Container-Musique-1 {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    width: 60%;
+}
+
+.Photo-Musique {
+    border: solid 5px white;
+    border-radius: var(--border-radius);
+    width: 70%;
+    overflow: hidden;
+}
+
+.Titre-Lien-Musique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    p {
+        background-color: red;
+        text-transform: uppercase;
+        border-radius: var(--border-radius);
+        padding: 35px 80px;
+        font-size: 29px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Container-Musique-1 {
+        width: 90%;
+    }
+
+    .Photo-Musique {
+        width: 50%;
+    }
+
+    .Titre-Lien-Musique {
+        h1 {
+            font-size:large;
+        }
+
+           p{
+                font-size: small;
+                padding: 20px 60px;
+            }
+    }
+}

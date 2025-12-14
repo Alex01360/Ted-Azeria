@@ -1,0 +1,41 @@
+.Container-Barreverticale-1{
+    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+width: 100%;
+
+img{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 100%;
+    z-index: 1;
+}
+}
+
+// Media query pour les écrans de maximum 768px (tablettes et mobiles)
+@media screen and (max-width: 768px) {
+    .Container-Barreverticale-1 {
+        // Ajustements pour les petits écrans
+        padding: 15px;
+        
+        h1 {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.Container-Bio-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    width: 100%;
+}
+
+.Container-Bio-2 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+    h1 {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+.Container-Bio-3 {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    width: 60%;
+
+    .Vidéo-Bio {
+        width: 50%;
+
+        video {
+            border-radius: 20px;
+        }
+    }
+}
+
+.Container-Bio-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.Logo-Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Texte-Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .Container-Bio-3 {
+        width: 90%;
+
+        .Vidéo-Bio {
+            width: 100%;
+        }
+    }
+
+    .Texte-Bio{
+    gap: 20px;
+
+    p{
+    font-size: 14px;
+    }
+    }
+}

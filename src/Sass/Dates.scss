@@ -1,0 +1,95 @@
+.Container-Dates-1 {
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 60%;
+}
+
+.Dates-Lieux-Infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+    h1{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+&:nth-child(1){
+width: 10%;
+}
+
+    &:nth-child(2){
+        width: 50%;
+    }
+    }
+}
+
+.Bouton-Evènement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+width: 22%;
+
+a{
+width: 100%;
+text-decoration: none;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 1024px){
+.Container-Dates-1{
+width: 60%;
+}
+
+.Dates-Lieux-Infos{
+    h1{
+    font-size:large;
+    }
+}
+
+.Bouton-Evènement{
+    p{
+    font-size: large;
+    }
+}
+}
+
+
+@media screen and (max-width: 768px){
+.Container-Dates-1{
+width: 90%;
+}
+
+.Dates-Lieux-Infos{
+    h1{
+    font-size:smaller;
+    }
+}
+
+.Bouton-Evènement{
+    p{
+    font-size: small;
+    }
+}
+}
